@@ -1,0 +1,20 @@
+{
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:title": "Fred",
+        "cq:template": "/apps/sample/templates/homepage",
+        "sling:resourceType": "sample/components/homepage",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Thu Aug 07 2014 16:32:59 GMT+0200",
+        "par": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "foundation/components/parsys",
+            "colctrl": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "2;cq-colctrl-lt0",
+                "sling:resourceType": "foundation/components/parsys/colctrl"
+            }
+        }
+    }
+}
