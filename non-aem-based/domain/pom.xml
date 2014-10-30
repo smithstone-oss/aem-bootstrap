@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>au.com.digitaslbi</groupId>
+        <groupId>uk.co.smithstone-solutions</groupId>
         <artifactId>non-aem-based</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -14,4 +14,29 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Bundle-Name>Bootstrap Domain Bundle</Bundle-Name>
+                        <Export-Package>
+                            bootstrap.*
+                        </Export-Package>
+                    </instructions>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>maven-sling-plugin</artifactId>
+                <configuration>
+                    <skip>false</skip>
+                    <usePut>true</usePut>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
