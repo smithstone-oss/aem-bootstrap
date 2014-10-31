@@ -2,17 +2,24 @@
 
 <%@taglib prefix="bootstrap" tagdir="/WEB-INF/tags/apps/bootstrap/components/tags" %>
 
-<bootstrap:accordion-item headingId="moo" bodyId="moo" parentContainerId="accordion">
+<%@taglib prefix="bootstrap-cq-tags" uri="http://www.smithstone-solutions.co.uk/bootstrap/cq/tags" %>
+
+<%@taglib prefix="aem-util-tags" uri="http://www.smithstone-solutions.co.uk/aem/util/tags" %>
+
+<bootstrap-cq-tags:accordionItemSupportTag/>
+
+<jsp:useBean id="item" type="bootstrap.AccordionItemUI" scope="request"/>
+
+
+<bootstrap:accordion-item headingId="${item.headingId}" bodyId="${item.bodyId}" parentContainerId="${item.parentContainerId}">
 
     <jsp:attribute name="heading">
 
-        Heading
+        ${item.heading}
 
     </jsp:attribute>
 
     <jsp:attribute name="body">
-
-        <p>Body</p>
 
         <cq:include path="par" resourceType="foundation/components/parsys"/>
 

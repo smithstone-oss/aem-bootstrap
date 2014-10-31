@@ -18,7 +18,12 @@
 
             <jsp:attribute name="body">
 
-                    <bootstrap:accordion-item parentContainerId="accordion" bodyId="collapseOne" headingId="headingOne"
+                <div class="parsys par" id="manager">
+
+                    <div class="panel panel-default section">
+
+
+                    <bootstrap:accordion-item parentContainerId="div.parsys.par" bodyId="collapseOne" headingId="headingOne"
                                               in="in">
                     <jsp:attribute name="heading">
                         Collapsible Group Item #1
@@ -28,7 +33,11 @@
                     </jsp:attribute>
                     </bootstrap:accordion-item>
 
-                    <bootstrap:accordion-item parentContainerId="accordion" bodyId="collapseTwo" headingId="headingTwo">
+                    </div>
+
+                    <div class="panel panel-default section">
+
+                    <bootstrap:accordion-item parentContainerId="div.parsys.par" bodyId="collapseTwo" headingId="headingTwo">
                     <jsp:attribute name="heading">
                         Collapsible Group Item #2
                     </jsp:attribute>
@@ -36,6 +45,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium consequuntur cupiditate dignissimos doloribus, et ex facere harum incidunt ipsa iusto molestiae nihil voluptatem! Deleniti eaque nulla pariatur totam ut?
                     </jsp:attribute>
                     </bootstrap:accordion-item>
+
+                    </div>
+
+                </div>
+
+
 
 
             </jsp:attribute>

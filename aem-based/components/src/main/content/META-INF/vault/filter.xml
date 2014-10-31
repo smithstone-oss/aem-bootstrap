@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/bootstrap/components"/>
+    <filter root="/apps/bootstrap/components">
+        <exclude pattern="/apps/bootstrap/components/tags"/>
+    </filter>
     <filter root="/apps/foundation"/>
 </workspaceFilter>
