@@ -13,6 +13,11 @@
         <tag-class>bootstrap.web.cq.taglib.CQAccordionItemSupportTag</tag-class>
         <body-content>empty</body-content>
     </tag>
+    <tag>
+        <name>navBarSupportTag</name>
+        <tag-class>bootstrap.web.cq.taglib.CQNavBarSupportTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
 
 
 </taglib>

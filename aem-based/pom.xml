@@ -72,6 +72,7 @@
 
     <modules>
         <module>domain-cq</module>
+        <module>web-cq</module>
         <module>cq-web-tags</module>
         <module>components</module>
         <module>configuration</module>

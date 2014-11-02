@@ -6,7 +6,7 @@
 <%@taglib prefix="aem-utils" uri="http://www.smithstone-solutions.co.uk/aem/util/tags" %>
 <bootstrap-cq-tags:accordionItemSupportTag/>
 
-<jsp:useBean id="item" type="bootstrap.AccordionItemUI" scope="request"/>
+<jsp:useBean id="item" type="bootstrap.web.AccordionItemUI" scope="request"/>
 
 
 <bootstrap:accordion-item headingId="${item.headingId}" bodyId="${item.bodyId}" parentContainerId="${item.parentContainerId}">

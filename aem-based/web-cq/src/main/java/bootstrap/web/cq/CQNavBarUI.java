@@ -18,6 +18,7 @@ public class CQNavBarUI implements NavBarUI {
         root = page.getAbsoluteParent(2);
     }
 
+    @Override
     public List<NavBarItemUI> getChildren(){
         Iterator<Page> children = root.listChildren(new PageFilter());
         lazyLoadPages(children);

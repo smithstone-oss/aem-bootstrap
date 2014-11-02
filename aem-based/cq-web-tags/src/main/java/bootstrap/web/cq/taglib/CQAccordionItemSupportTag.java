@@ -1,6 +1,6 @@
 package bootstrap.web.cq.taglib;
 
-import bootstrap.AccordionItemUI;
+import bootstrap.web.AccordionItemUI;
 import bootstrap.web.taglib.AccordionItemSupportTag;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;

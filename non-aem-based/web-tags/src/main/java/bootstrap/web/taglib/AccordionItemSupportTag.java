@@ -1,6 +1,6 @@
 package bootstrap.web.taglib;
 
-import bootstrap.AccordionItemUI;
+import bootstrap.web.AccordionItemUI;
 
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.PageContext;

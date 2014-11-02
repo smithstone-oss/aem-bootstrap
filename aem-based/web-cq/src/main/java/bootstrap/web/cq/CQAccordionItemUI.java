@@ -1,6 +1,6 @@
 package bootstrap.web.cq;
 
-import bootstrap.AccordionItemUI;
+import bootstrap.web.AccordionItemUI;
 import org.apache.sling.api.resource.ValueMap;
 
 public class CQAccordionItemUI implements AccordionItemUI {
@@ -33,6 +33,7 @@ public class CQAccordionItemUI implements AccordionItemUI {
 
     @Override
     public String getState() {
+
         return "";
     }
 }

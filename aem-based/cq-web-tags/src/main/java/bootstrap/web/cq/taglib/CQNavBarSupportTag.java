@@ -5,7 +5,7 @@ import bootstrap.web.taglib.NavBarSupportTag;
 import com.day.cq.wcm.api.Page;
 
 public class CQNavBarSupportTag extends NavBarSupportTag {
-    
+
     @Override
     public NavBarUI getNavBar() {
         Page page = (Page) getJspContext().findAttribute("currentPage");

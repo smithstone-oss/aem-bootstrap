@@ -12,11 +12,6 @@ public class CQNavBarItemUI implements NavBarItemUI {
     }
 
     @Override
-    public boolean isHidden() {
-        return page.isHideInNav();
-    }
-
-    @Override
     public String getTitle() {
         return page.getNavigationTitle();
     }

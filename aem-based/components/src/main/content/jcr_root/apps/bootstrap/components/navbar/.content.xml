@@ -4,4 +4,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="navbar"
     allowedParents="[*/*]"
-    componentGroup="Bootstrap"/>
+    componentGroup=".hidden"/>

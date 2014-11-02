@@ -1,4 +1,4 @@
-package bootstrap;
+package bootstrap.web;
 
 public interface AccordionItemUI {
     String getHeading();
