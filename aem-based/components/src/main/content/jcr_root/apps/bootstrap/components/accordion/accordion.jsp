@@ -8,9 +8,10 @@
 <bootstrap:accordion id="accordion">
 
     <jsp:attribute name="body">
+
         <cq:include path="par" resourceType="foundation/components/parsys"/>
     </jsp:attribute>
-
 </bootstrap:accordion>
 
 <cq:include path="end" resourceType="bootstrap/components/accordion/end"/>
+

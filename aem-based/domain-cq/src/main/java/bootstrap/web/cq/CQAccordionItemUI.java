@@ -30,4 +30,9 @@ public class CQAccordionItemUI implements AccordionItemUI {
     public String getBodyId() {
         return "moo";
     }
+
+    @Override
+    public String getState() {
+        return "";
+    }
 }

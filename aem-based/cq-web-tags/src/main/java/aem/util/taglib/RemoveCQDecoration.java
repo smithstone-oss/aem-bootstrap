@@ -1,6 +1,8 @@
 package aem.util.taglib;
 
+import com.day.cq.wcm.api.WCMMode;
 import com.day.cq.wcm.api.components.ComponentContext;
+import com.day.cq.wcm.api.components.IncludeOptions;
 import com.day.cq.wcm.commons.WCMUtils;
 
 import javax.servlet.ServletRequest;
@@ -19,7 +21,7 @@ public class RemoveCQDecoration extends SimpleTagSupport {
     @Override
     public void doTag() throws JspException, IOException {
         ComponentContext componentContext = WCMUtils.getComponentContext(request);
-        componentContext.setAttribute("id", "manager");
+//        componentContext.setAttribute("id", "manager");
 //        if (WCMMode.fromRequest(request) != WCMMode.EDIT && WCMMode.fromRequest(request) != WCMMode.DESIGN) {
 //            componentContext.setDefaultDecorationTagName("");
 //            componentContext.setAttribute("class", "moo panel panel-default");
@@ -31,5 +33,7 @@ public class RemoveCQDecoration extends SimpleTagSupport {
 //            IncludeOptions.getOptions(request, true).forceSameContext(Boolean.TRUE);
 //        }
 
+       //This code will only add the surrounding DIVs for the editbars when in EDIT mode only
+       if (WCMMode.fromRequest(request) != WCMMode.EDIT && WCMMode.fromRequest(request) != WCMMode.DESIGN) { IncludeOptions.getOptions(request, true).forceSameContext(Boolean.TRUE); }
     }
 }

@@ -3,9 +3,7 @@
 <%@taglib prefix="bootstrap" tagdir="/WEB-INF/tags/apps/bootstrap/components/tags" %>
 
 <%@taglib prefix="bootstrap-cq-tags" uri="http://www.smithstone-solutions.co.uk/bootstrap/cq/tags" %>
-
-<%@taglib prefix="aem-util-tags" uri="http://www.smithstone-solutions.co.uk/aem/util/tags" %>
-
+<%@taglib prefix="aem-utils" uri="http://www.smithstone-solutions.co.uk/aem/util/tags" %>
 <bootstrap-cq-tags:accordionItemSupportTag/>
 
 <jsp:useBean id="item" type="bootstrap.AccordionItemUI" scope="request"/>
@@ -29,3 +27,6 @@
 
 
 <cq:include path="end" resourceType="bootstrap/components/accordion/item/end"/>
+
+<div style="clear:both"></div>
+

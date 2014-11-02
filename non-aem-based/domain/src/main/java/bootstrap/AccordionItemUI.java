@@ -8,4 +8,6 @@ public interface AccordionItemUI {
     String getHeadingId();
 
     String getBodyId();
+
+    String getState();
 }

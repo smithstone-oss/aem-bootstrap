@@ -36,6 +36,11 @@ public class CQAccordionItemSupportTag extends AccordionItemSupportTag {
             public String getBodyId() {
                 return resource.getName()+"_body";
             }
+
+            @Override
+            public String getState() {
+                return properties.get("expanded" , Boolean.class) ? "in" : "";
+            }
         };
     }
 }
