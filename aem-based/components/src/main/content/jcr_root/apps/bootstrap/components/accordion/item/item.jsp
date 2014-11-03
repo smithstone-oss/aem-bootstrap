@@ -10,7 +10,8 @@
 
 
 <bootstrap:accordion-item headingId="${item.headingId}" bodyId="${item.bodyId}"
-                          accordionEditablePath="${resource.path}/par" in="<%= properties.get("expanded" , "")%>"
+                          accordionEditablePath="${resource.path}/par"
+                          in="<%= properties.get("expanded" , "")%>"
                           parentContainerId="${item.parentContainerId}">
 
     <jsp:attribute name="heading">
