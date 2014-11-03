@@ -3,13 +3,15 @@ package bootstrap.web.cq.taglib;
 import bootstrap.web.NavBarUI;
 import bootstrap.web.cq.CQNavBarUI;
 import bootstrap.web.taglib.NavBarSupportTag;
-import com.day.cq.wcm.api.Page;
+import org.apache.sling.api.resource.Resource;
 
 public class CQNavBarSupportTag extends NavBarSupportTag {
 
     @Override
     public NavBarUI getNavBar() {
-        Page page = (Page) getJspContext().findAttribute("currentPage");
-        return new CQNavBarUI(page);
+
+        return new CQNavBarUI(
+                (Resource) getJspContext().findAttribute("resource")
+        );
     }
 }

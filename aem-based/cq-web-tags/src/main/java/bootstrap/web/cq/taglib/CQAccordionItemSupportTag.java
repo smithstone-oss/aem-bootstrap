@@ -39,7 +39,7 @@ public class CQAccordionItemSupportTag extends AccordionItemSupportTag {
 
             @Override
             public String getState() {
-                return properties.get("expanded" , Boolean.class) ? "in" : "";
+                return properties.get("expanded" , "");
             }
         };
     }

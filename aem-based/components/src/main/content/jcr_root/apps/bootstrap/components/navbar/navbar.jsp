@@ -2,7 +2,6 @@
 <%@taglib prefix="bootstrap-cq" uri="http://www.smithstone-solutions.co.uk/bootstrap/cq/tags" %>
 <bootstrap-cq:navBarSupportTag/>
 <jsp:useBean id="navbar" type="bootstrap.web.NavBarUI" scope="request"/>
-
 <nav class="navbar navbar-default" role="navigation">
 
     <div class="container-fluid">
@@ -16,7 +15,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Brand</a>
+            <a class="navbar-brand" href="#">${navbar.brand}</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

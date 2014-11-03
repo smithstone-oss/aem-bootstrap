@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/content/bootstrap"/>
+    <filter root="/apps/bootstrap-example"/>
+    <filter root="/content/bootstrap-example-site"/>
 </workspaceFilter>

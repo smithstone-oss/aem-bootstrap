@@ -13,7 +13,7 @@ public class CQNavBarItemUI implements NavBarItemUI {
 
     @Override
     public String getTitle() {
-        return page.getNavigationTitle();
+        return page.getNavigationTitle() ;
     }
 
     @Override

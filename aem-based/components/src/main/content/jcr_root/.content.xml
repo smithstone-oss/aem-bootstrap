@@ -15,4 +15,5 @@
     <home/>
     <tmp/>
     <content/>
+    <ui-event-handler/>
 </jcr:root>
