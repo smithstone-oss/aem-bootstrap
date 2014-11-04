@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    helpPath="en/cq/current/wcm/default_components.html#Columns"
+    title="Column Control"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <layout
+            jcr:primaryType="cq:Widget"
+            allowBlank="{Boolean}true"
+            fieldLabel="Column Layout"
+            name="./layout"
+            newStylePath="colctrl/layouts"
+            optionsProvider="CQ.utils.WCM.getStyleOptions"
+            stylePath="layouts"
+            type="select"
+            xtype="selection"/>
+    </items>
+</jcr:root>
