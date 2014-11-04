@@ -9,7 +9,15 @@
         <items jcr:primaryType="cq:WidgetCollection">
             <tab1
                 jcr:primaryType="cq:Panel"
-                title="Tab 1"/>
+                title="Config">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <heading
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Heading"
+                        name="./heading"
+                        xtype="textfield"/>
+                </items>
+            </tab1>
         </items>
     </items>
 </jcr:root>

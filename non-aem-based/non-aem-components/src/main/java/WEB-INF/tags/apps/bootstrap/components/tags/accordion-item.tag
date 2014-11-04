@@ -8,7 +8,7 @@
 
 <%@attribute name="in" required="false" %>
 
-<div class="panel-heading" data-bs="smithstone" id="${headingId}">
+<div class="panel-heading" id="${headingId}">
     <h4 class="panel-title">
         <a data-toggle="collapse" href="#${bodyId}" data-parent="div.par.parsys">
             <jsp:invoke fragment="heading"/>

@@ -10,8 +10,9 @@
         </ol>--%>
 
         <!-- Wrapper for slides -->
-        <div style="border:1px solid red; padding:1em">
-            <cq:include path="carousel-inner" resourceType="foundation/components/parsys"/>
+        <div style="padding:5em;">
+            <%--<cq:include path="carousel-inner" resourceType="foundation/components/parsys"/>--%>
+            <cq:include path="carousel-inner" resourceType="bootstrap/components/carousel/parsys"/>
         </div>
 
 
@@ -36,12 +37,12 @@
 
     var parsysUtils = function () {
 
-        $('#carousel-example-generic .carousel-inner .item ').not(".active").each(function (index, element) {
+        $('#carousel-example-generic .carousel-inner .item').not(".active").each(function (index, element) {
             $(element).find(".config").each(function (index, element) {
                 var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
+
                 CQ.WCM.onEditableReady($(element).attr("data-aem-editable-path"), function (e) {
                     var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
-                    var state = "${active}"
                     if (parsys) {
                         console.log("hiding parsys @ " + $(element).attr("data-aem-editable-path"));
                         parsys.hide();
@@ -56,13 +57,11 @@
         });
         $('#carousel-example-generic .carousel-inner .item.active').each(function (index, element) {
 
-            console.log($(element));
             $(element).find(".config").each(function (index, element) {
                 var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
 
                 CQ.WCM.onEditableReady($(element).attr("data-aem-editable-path"), function (e) {
                     var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
-                    var state = "${active}"
                     if (parsys) {
                         console.log("showing parsys @ " + $(element).attr("data-aem-editable-path"));
 
@@ -78,7 +77,7 @@
 
         });
 
-    }
+    };
 
     $CQ(document).ready(function () {
         $($(".carousel-inner .item")[0]).addClass("active");
@@ -121,41 +120,5 @@
 
         });
     });
-
-</script>
-
-<script type="text/javascript">
-
-    $CQ(document).ready(function () {
-
-        /*
-         $('#carousel-example-generic').on('hidden.bs.collapse', function (e) {
-
-
-         $(".collapsing").each(function (index, element) {
-         var parsys = CQ.WCM.getEditable($(element).attr("data-cq-editable-path"));
-         if (parsys) {
-         parsys.hide();
-         }
-         });
-
-         }
-         );
-         */
-
-        /*
-         $('#accordion').on('shown.bs.collapse', function (e) {
-
-         $(".in").each(function (index, element) {
-         var parsys = CQ.WCM.getEditable($(element).attr("data-cq-editable-path"));
-         if (parsys) {
-         parsys.show();
-         }
-         });
-         }
-         );
-         */
-    });
-
 
 </script>
