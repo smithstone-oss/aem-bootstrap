@@ -3,4 +3,10 @@
     cq:actions="[text:carousel-container,-,edit,delete]"
     cq:disableTargeting="{Boolean}true"
     cq:layout="editbar"
-    jcr:primaryType="cq:EditConfig"/>
+    jcr:primaryType="cq:EditConfig">
+    <cq:listeners
+        jcr:primaryType="cq:EditListenersConfig"
+        afterdelete="REFRESH_PAGE"
+        afteredit="REFRESH_PAGE"
+        afterinsert="REFRESH_PAGE"/>
+</jcr:root>
