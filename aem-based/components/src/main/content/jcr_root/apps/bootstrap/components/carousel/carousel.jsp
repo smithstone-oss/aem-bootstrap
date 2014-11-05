@@ -10,8 +10,7 @@
         </ol>--%>
 
         <!-- Wrapper for slides -->
-        <div style="padding:5em;">
-            <%--<cq:include path="carousel-inner" resourceType="foundation/components/parsys"/>--%>
+        <div style="">
             <cq:include path="carousel-inner" resourceType="bootstrap/components/carousel/parsys"/>
         </div>
 
@@ -30,7 +29,11 @@
 
 </div>
 
+
 <div style="clear:both"></div>
+
+
+<cq:include resourceType="bootstrap/components/carousel/end" path="end"/>
 
 <script>
 
@@ -79,10 +82,7 @@
                 });
 
             });
-
-
         }
-
 
     };
 
@@ -91,8 +91,6 @@
         $($(".carousel-inner .item")[0]).addClass("active");
 
         parsysUtils();
-
-
 
         $('#carousel-example-generic').carousel({});
 
