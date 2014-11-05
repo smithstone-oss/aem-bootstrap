@@ -1,7 +1,6 @@
 <%@include file="/apps/foundation/global.jsp"%>
     <cq:include path="start" resourceType="bootstrap/components/layout/grid/col-md-4/start"/>
-    <div class="panel-body" id="<%= resource.getPath().replaceAll("/", "_").replaceAll(":", "_")%>" data-aem-html-tag-extra-classes="<%= properties.get("replacementBootstrapCssClasses" , "")%>">
-        <p>Custom Column <%= properties.get("replacementBootstrapCssClasses" , "") %></p>
+    <div id="<%= resource.getPath().replaceAll("/", "_").replaceAll(":", "_")%>" data-aem-html-tag-extra-classes="<%= properties.get("replacementBootstrapCssClasses" , "")%>">
         <cq:include path="par" resourceType="foundation/components/parsys"/>
     </div>
     <cq:include path="end" resourceType="bootstrap/components/layout/grid/col-md-4/end"/>
