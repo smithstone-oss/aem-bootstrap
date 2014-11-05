@@ -10,7 +10,7 @@
 
 <div class="panel-heading" id="${headingId}">
     <h4 class="panel-title">
-        <a data-toggle="collapse" href="#${bodyId}" data-parent="div.par.parsys">
+        <a data-toggle="collapse" href="#${bodyId}" data-parent="#{parentContainerId} div.par.parsys">
             <jsp:invoke fragment="heading"/>
         </a>
     </h4>

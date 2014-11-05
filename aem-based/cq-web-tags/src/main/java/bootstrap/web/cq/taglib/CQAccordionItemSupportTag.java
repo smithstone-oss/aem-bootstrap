@@ -24,7 +24,7 @@ public class CQAccordionItemSupportTag extends AccordionItemSupportTag {
                 while(!parent.getResourceType().contains("components/accordion")){
                     parent = parent.getParent();
                 }
-                return parent.getName();
+                return parent.getName() + "_" + parent.getParent().getName();
             }
 
             @Override
