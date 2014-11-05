@@ -37,88 +37,104 @@
 
     var parsysUtils = function () {
 
-        $('#carousel-example-generic .carousel-inner .item').not(".active").each(function (index, element) {
-            $(element).find(".config").each(function (index, element) {
-                var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
+        if (typeof(CQ) != "undefined") {
 
-                CQ.WCM.onEditableReady($(element).attr("data-aem-editable-path"), function (e) {
+            $('#carousel-example-generic .carousel-inner .item').not(".active").each(function (index, element) {
+                $(element).find(".config").each(function (index, element) {
                     var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
-                    if (parsys) {
-                        console.log("hiding parsys @ " + $(element).attr("data-aem-editable-path"));
-                        parsys.hide();
-                    }
-                    else {
-                        console.log("parsys not available @ " + $(element).attr("data-aem-editable-path"));
-                    }
 
-                });
-            });
+                    CQ.WCM.onEditableReady($(element).attr("data-aem-editable-path"), function (e) {
+                        var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
+                        if (parsys) {
+                            console.log("hiding parsys @ " + $(element).attr("data-aem-editable-path"));
+                            parsys.hide();
+                        }
+                        else {
+                            console.log("parsys not available @ " + $(element).attr("data-aem-editable-path"));
+                        }
 
-        });
-        $('#carousel-example-generic .carousel-inner .item.active').each(function (index, element) {
-
-            $(element).find(".config").each(function (index, element) {
-                var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
-
-                CQ.WCM.onEditableReady($(element).attr("data-aem-editable-path"), function (e) {
-                    var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
-                    if (parsys) {
-                        console.log("showing parsys @ " + $(element).attr("data-aem-editable-path"));
-
-                        parsys.show();
-                    }
-                    else {
-                        console.log("parsys not available @ " + $(element).attr("data-aem-editable-path"));
-                    }
-
+                    });
                 });
 
             });
 
-        });
+
+            $('#carousel-example-generic .carousel-inner .item.active').each(function (index, element) {
+
+                $(element).find(".config").each(function (index, element) {
+                    var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
+
+                    CQ.WCM.onEditableReady($(element).attr("data-aem-editable-path"), function (e) {
+                        var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
+                        if (parsys) {
+                            console.log("showing parsys @ " + $(element).attr("data-aem-editable-path"));
+                            parsys.show();
+                        }
+                        else {
+                            console.log("parsys not available @ " + $(element).attr("data-aem-editable-path"));
+                        }
+
+                    });
+
+                });
+
+            });
+
+
+        }
+
 
     };
 
-    $CQ(document).ready(function () {
+    $(document).ready(function () {
+
         $($(".carousel-inner .item")[0]).addClass("active");
-        $('#carousel-example-generic').carousel({});
+
         parsysUtils();
 
-        $("#carousel-example-generic").on("slid.bs.carousel", function(){
-            $('#carousel-example-generic .carousel-inner .item.active').each(function (index, element) {
-                console.log("slid finished should show all parsys in .active items");
-                $(element).find(".config").each(function (index, element) {
-                    var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
-                    if (parsys) {
-                        console.log("showing parsys @ " + $(element).attr("data-aem-editable-path"));
-                        parsys.show();
-                    }
-                    else {
-                        console.log("parsys not available @ " + $(element).attr("data-aem-editable-path"));
-                    }
-                });
 
-            })
 
-        });
+        $('#carousel-example-generic').carousel({});
 
-        $("#carousel-example-generic").on("slide.bs.carousel", function () {
-            $('#carousel-example-generic .carousel-inner .item.active').each(function (index, element) {
-                console.log("slide invoked should hide all parsys in .active items");
-                $(element).find(".config").each(function (index, element) {
-                    var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
-                    if (parsys) {
-                        console.log("hiding parsys @ " + $(element).attr("data-aem-editable-path"));
-                        parsys.hide();
-                    }
-                    else {
-                        console.log("parsys not available @ " + $(element).attr("data-aem-editable-path"));
-                    }
-                });
+        if (typeof(CQ) != "undefined") {
 
-            })
+            $("#carousel-example-generic").on("slid.bs.carousel", function () {
+                $('#carousel-example-generic .carousel-inner .item.active').each(function (index, element) {
+                    console.log("slid finished should show all parsys in .active items");
+                    $(element).find(".config").each(function (index, element) {
+                        var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
+                        if (parsys) {
+                            console.log("showing parsys @ " + $(element).attr("data-aem-editable-path"));
+                            parsys.show();
+                        }
+                        else {
+                            console.log("parsys not available @ " + $(element).attr("data-aem-editable-path"));
+                        }
+                    });
 
-        });
+                })
+
+            });
+
+            $("#carousel-example-generic").on("slide.bs.carousel", function () {
+                $('#carousel-example-generic .carousel-inner .item.active').each(function (index, element) {
+                    console.log("slide invoked should hide all parsys in .active items");
+                    $(element).find(".config").each(function (index, element) {
+                        var parsys = CQ.WCM.getEditable($(element).attr("data-aem-editable-path"));
+                        if (parsys) {
+                            console.log("hiding parsys @ " + $(element).attr("data-aem-editable-path"));
+                            parsys.hide();
+                        }
+                        else {
+                            console.log("parsys not available @ " + $(element).attr("data-aem-editable-path"));
+                        }
+                    });
+
+                })
+
+            });
+        }
+
     });
 
 </script>
