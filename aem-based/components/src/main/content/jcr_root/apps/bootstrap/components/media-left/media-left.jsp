@@ -4,7 +4,11 @@
     <img src="//lorempixel.com/64/64/sports/" alt="...">
 </a>
 <div class="media-body">
-    <h4 class="media-heading">Media heading</h4>
+    <h4 class="media-heading">
+
+        <%= properties.get("heading" , "Define Media Headline")%>
+
+    </h4>
     <div>
         <cq:include path="par" resourceType="foundation/components/parsys"/>
     </div>

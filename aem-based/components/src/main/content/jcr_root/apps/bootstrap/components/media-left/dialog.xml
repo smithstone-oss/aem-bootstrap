@@ -18,6 +18,11 @@
                         fieldLabel="Media Alignment"
                         name="./medialocation"
                         xtype="textfield"/>
+                    <heading
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Heading"
+                        name="./heading"
+                        xtype="richtext"/>
                 </items>
             </config>
         </items>
