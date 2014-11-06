@@ -44,8 +44,42 @@
     <link rel="stylesheet" media="screen" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 
 <style>
+    .col-md-1 .parsys .new {
 
+        clear:both;
 
+    }
+    .col-md-2 .parsys .new {
+
+        clear:both;
+
+    }
+    .col-md-4 .parsys .new {
+
+        clear:both;
+
+    }
+    .col-md-6 .parsys .new {
+
+        clear:both;
+
+    }
+
+    .col-md-8 .parsys .new {
+
+        clear:both;
+
+    }
+    .col-md-10 .parsys .new {
+
+        clear:both;
+
+    }
+    .col-md-12 .parsys .new {
+
+        clear:both;
+
+    }
 </style>
 
 </head>
