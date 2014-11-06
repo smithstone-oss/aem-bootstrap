@@ -41,45 +41,4 @@
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="<%= xssAPI.getValidHref(favIcon) %>"<%=xs%>>
     <% } %>
     <title><%= currentPage.getTitle() == null ? xssAPI.encodeForHTML(currentPage.getName()) : xssAPI.encodeForHTML(currentPage.getTitle()) %></title>
-    <link rel="stylesheet" media="screen" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-
-<style>
-    .col-md-1 .parsys .new {
-
-        clear:both;
-
-    }
-    .col-md-2 .parsys .new {
-
-        clear:both;
-
-    }
-    .col-md-4 .parsys .new {
-
-        clear:both;
-
-    }
-    .col-md-6 .parsys .new {
-
-        clear:both;
-
-    }
-
-    .col-md-8 .parsys .new {
-
-        clear:both;
-
-    }
-    .col-md-10 .parsys .new {
-
-        clear:both;
-
-    }
-    .col-md-12 .parsys .new {
-
-        clear:both;
-
-    }
-</style>
-
 </head>

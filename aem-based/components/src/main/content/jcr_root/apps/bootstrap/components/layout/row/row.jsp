@@ -12,7 +12,6 @@
 
 <div class="clearfix" style="clear:both">
     <cq:include path="par" resourceType="foundation/components/parsys"/>
-
 </div>
 <div style="" class="clearfix"></div>
 

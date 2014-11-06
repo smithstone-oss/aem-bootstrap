@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/apps/bootstrap-example"/>
-    <filter root="/content/bootstrap-example-site"/>
+    <filter root="/content/bootstrap"/>
+    <filter root="/etc/designs/default"/>
+    <filter root="/etc/designs/bootstrap-default"/>
 </workspaceFilter>
