@@ -21,8 +21,13 @@
 <%@include file="/apps/foundation/global.jsp" %>
 <%@page session="false"%><body>
 <div class="container">
-<cq:include path="nav-bar" resourceType="bootstrap/components/navbar"/>
-<cq:include path="parsys" resourceType="foundation/components/parsys"/>
+
+  <cq:include path="top" resourceType="bootstrap/components/layout/grid/col-md-12"/>
+  <cq:include path="left" resourceType="bootstrap/components/layout/grid/col-md-4"/>
+  <cq:include path="right" resourceType="bootstrap/components/layout/grid/col-md-8"/>
+  <cq:include path="bottom" resourceType="bootstrap/components/layout/grid/col-md-12"/>
+
+
 </div>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
