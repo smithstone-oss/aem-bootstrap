@@ -22,17 +22,12 @@
 
         if(typeof(CQ) != "undefined"){
 
-            console.log("in EDIT mode");
 
             $("#${resource.name}_${resource.parent.name} .panel-collapse").each(function (index, element) {
                 CQ.WCM.onEditableReady($(element).attr("data-cq-editable-path"), function (e) {
                     var parsys = CQ.WCM.getEditable($(element).attr("data-cq-editable-path"));
                     if (parsys) {
-                        console.log("hiding parsys @ " + $(element).attr("data-cq-editable-path"));
                         parsys.hide();
-                    }
-                    else {
-                        console.log("parsys not available @ " + $(element).attr("data-cq-editable-path"));
                     }
                 });
 
@@ -43,11 +38,7 @@
                 $("#accordion .panel-collapse").each(function (index, element) {
                     var parsys = CQ.WCM.getEditable($(element).attr("data-cq-editable-path"));
                     if (parsys) {
-                        console.log("hiding parsys @ " + $(element).attr("data-cq-editable-path"));
                         parsys.hide();
-                    }
-                    else {
-                        console.log("parsys not available @ " + $(element).attr("data-cq-editable-path"));
                     }
                 });
 
@@ -59,11 +50,7 @@
                 $("#${resource.name}_${resource.parent.name} .panel-collapse.in").each(function (index, element) {
                     var parsys = CQ.WCM.getEditable($(element).attr("data-cq-editable-path"));
                     if (parsys) {
-                        console.log("showing parsys @ " + $(element).attr("data-cq-editable-path"));
                         parsys.show();
-                    }
-                    else {
-                        console.log("parsys not available @ " + $(element).attr("data-cq-editable-path"));
                     }
                 });
             });
