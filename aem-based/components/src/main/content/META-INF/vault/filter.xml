@@ -3,5 +3,6 @@
     <filter root="/apps/bootstrap/components">
         <exclude pattern="/apps/bootstrap/components/tags"/>
     </filter>
+    <filter root="/apps/bootstrap/templates"/>
     <filter root="/apps/foundation"/>
 </workspaceFilter>
