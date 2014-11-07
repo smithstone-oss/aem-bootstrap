@@ -34,11 +34,11 @@
 
             if(typeof(CQ) != "undefined"){
                 CQ.WCM.onEditableReady('${resource.path}/par',function(e){
-                    var parsys = CQ.WCM.getEditable('${resource.path}/par');
-                    var state = "${item.state}";
-                    if(state != "in" && parsys){
-                        parsys.hide();
-                    }
+                    <%--var parsys = CQ.WCM.getEditable('${resource.path}/par');--%>
+                    <%--var state = "${item.state}";--%>
+//                    if(state != "in" && parsys){
+//                        parsys.hide();
+//                    }
 
                 });
             }

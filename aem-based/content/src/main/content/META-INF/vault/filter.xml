@@ -4,4 +4,6 @@
     <filter root="/content/bootstrap"/>
     <filter root="/etc/designs/default"/>
     <filter root="/etc/designs/bootstrap-default"/>
+    <filter root="/etc/designs/bootstrap-superhero"/>
+    <filter root="/etc/designs/bootstrap-paper"/>
 </workspaceFilter>

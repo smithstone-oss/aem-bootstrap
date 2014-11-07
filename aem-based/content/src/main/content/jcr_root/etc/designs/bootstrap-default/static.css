@@ -11,6 +11,16 @@
 
 }
 
+.row.ss-clearfix {
+    clear:both;
+}
+
+.row .parsys .new {
+
+    clear:both;
+
+}
+
 .cq-wcm-edit .col-md-4 {
 
     border:1px solid red;

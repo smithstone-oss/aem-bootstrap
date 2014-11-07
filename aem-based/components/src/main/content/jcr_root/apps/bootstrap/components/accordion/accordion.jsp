@@ -35,7 +35,7 @@
 
             $("#${resource.name}_${resource.parent.name}").on('hide.bs.collapse', function (e) {
 
-                $("#accordion .panel-collapse").each(function (index, element) {
+                $("#${resource.name}_${resource.parent.name} .panel-collapse").each(function (index, element) {
                     var parsys = CQ.WCM.getEditable($(element).attr("data-cq-editable-path"));
                     if (parsys) {
                         parsys.hide();
