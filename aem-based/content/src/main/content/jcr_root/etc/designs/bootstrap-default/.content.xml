@@ -2,21 +2,31 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2014-11-07T09:37:20.527+11:00"
+        cq:lastModified="{Date}2014-11-10T09:21:59.615+11:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="Bootstrap Default Design"
         sling:resourceType="wcm/core/components/designer">
         <template-7-fluid jcr:primaryType="nt:unstructured">
             <main-container
-                jcr:lastModified="{Date}2014-11-07T09:37:20.525+11:00"
+                jcr:lastModified="{Date}2014-11-07T15:01:48.791+11:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="foundation/components/parsys"
-                components="group:Bootstrap">
+                components="[group:General,group:Bootstrap]">
                 <section jcr:primaryType="nt:unstructured"/>
             </main-container>
         </template-7-fluid>
+        <template-7 jcr:primaryType="nt:unstructured">
+            <main-container
+                jcr:lastModified="{Date}2014-11-10T09:21:59.603+11:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:General,group:Bootstrap]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </main-container>
+        </template-7>
     </jcr:content>
     <_x0030_.gif/>
     <favicon.ico/>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[mix:lockable,rep:AccessControllable,sling:Redirect]"
+    jcr:primaryType="sling:OrderedFolder"
+    sling:resourceType="sling:redirect"
+    sling:target="/geohome">
+    <catalogs/>
+    <campaigns/>
+    <dam/>
+    <launches/>
+    <usergenerated/>
+    <rep:policy/>
+    <mac/>
+    <publications/>
+    <bs-example-page/>
+    <bs-example-fluid-page/>
+    <bs-example-fluid-page-1/>
+    <template-1-example/>
+    <template-example-2/>
+    <template-example-3/>
+    <template-example-4/>
+    <template-example-5/>
+    <template-example-6/>
+    <template-1-fluid-example/>
+    <template-2-fluid-example/>
+    <template-3-fluid-example/>
+    <template-4-fluid-example/>
+    <template-5-fluid-example/>
+    <template-6-fluid-example/>
+    <template-7-fluid-example/>
+    <bootstrap/>
+</jcr:root>

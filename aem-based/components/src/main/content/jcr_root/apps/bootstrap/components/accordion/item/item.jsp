@@ -9,7 +9,8 @@
 <jsp:useBean id="item" type="bootstrap.web.AccordionItemUI" scope="request"/>
 
 
-<bootstrap:accordion-item headingId="${item.headingId}" bodyId="${item.bodyId}"
+<bootstrap:accordion-item headingId="${item.headingId}"
+                          bodyId="${item.parentContainerId}_${item.bodyId}"
                           accordionEditablePath="${resource.path}/par"
                           in="<%= properties.get("expanded" , "")%>"
                           parentContainerId="${item.parentContainerId}">
@@ -34,11 +35,11 @@
 
             if(typeof(CQ) != "undefined"){
                 CQ.WCM.onEditableReady('${resource.path}/par',function(e){
-                    <%--var parsys = CQ.WCM.getEditable('${resource.path}/par');--%>
-                    <%--var state = "${item.state}";--%>
-//                    if(state != "in" && parsys){
-//                        parsys.hide();
-//                    }
+                    var parsys = CQ.WCM.getEditable('${resource.path}/par');
+                    var state = "${item.state}";
+                    if(state != "in" && parsys){
+                        parsys.hide();
+                    }
 
                 });
             }
