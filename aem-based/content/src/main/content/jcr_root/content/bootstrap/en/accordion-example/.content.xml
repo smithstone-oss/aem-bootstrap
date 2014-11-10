@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2014-11-10T09:43:40.025+11:00"
+        cq:lastModified="{Date}2014-11-10T09:59:33.162+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/bootstrap/templates/template-7"
         jcr:primaryType="cq:PageContent"
@@ -164,7 +164,7 @@
                                     <text
                                         jcr:created="{Date}2014-11-10T09:41:00.083+11:00"
                                         jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2014-11-10T09:41:14.158+11:00"
+                                        jcr:lastModified="{Date}2014-11-10T09:53:18.182+11:00"
                                         jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="foundation/components/text"
@@ -172,6 +172,75 @@
                                         textIsRich="true"/>
                                 </par>
                             </item>
+                            <item_0
+                                jcr:created="{Date}2014-11-10T09:52:09.611+11:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-11-10T09:52:09.611+11:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="bootstrap/components/accordion/item"
+                                expanded="{Boolean}false"
+                                heading="Default Heading">
+                                <par
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="foundation/components/parsys">
+                                    <text
+                                        jcr:created="{Date}2014-11-10T09:53:27.267+11:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2014-11-10T09:53:27.267+11:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="foundation/components/text"
+                                        text="&lt;p>Accordion #2 Item #1&lt;/p>&#xa;"
+                                        textIsRich="true"/>
+                                </par>
+                            </item_0>
+                            <item_1
+                                jcr:created="{Date}2014-11-10T09:52:16.489+11:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-11-10T09:52:16.489+11:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="bootstrap/components/accordion/item"
+                                expanded="{Boolean}false"
+                                heading="Default Heading">
+                                <par
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="foundation/components/parsys">
+                                    <text
+                                        jcr:created="{Date}2014-11-10T09:53:31.495+11:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2014-11-10T09:53:31.495+11:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="foundation/components/text"
+                                        text="&lt;p>Accordion #2 Item #1&lt;/p>&#xa;"
+                                        textIsRich="true"/>
+                                </par>
+                            </item_1>
+                            <item_2
+                                jcr:created="{Date}2014-11-10T09:52:23.354+11:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-11-10T09:52:23.354+11:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="bootstrap/components/accordion/item"
+                                expanded="{Boolean}false"
+                                heading="Default Heading">
+                                <par
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="foundation/components/parsys">
+                                    <text
+                                        jcr:created="{Date}2014-11-10T09:53:35.556+11:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2014-11-10T09:53:35.556+11:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="foundation/components/text"
+                                        text="&lt;p>Accordion #2 Item #1&lt;/p>&#xa;"
+                                        textIsRich="true"/>
+                                </par>
+                            </item_2>
                         </par>
                     </accordion>
                 </par>
@@ -220,10 +289,104 @@
                                         textIsRich="true"/>
                                 </par>
                             </item>
+                            <item_0
+                                jcr:created="{Date}2014-11-10T09:59:33.158+11:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-11-10T09:59:33.158+11:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="bootstrap/components/accordion/item"
+                                expanded="{Boolean}false"
+                                heading="Default Heading">
+                                <par
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="foundation/components/parsys">
+                                    <text
+                                        jcr:created="{Date}2014-11-10T09:53:45.564+11:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2014-11-10T09:53:45.564+11:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="foundation/components/text"
+                                        text="&lt;p>Accordion #2 Item #1&lt;/p>&#xa;"
+                                        textIsRich="true"/>
+                                </par>
+                            </item_0>
                         </par>
                     </accordion>
                 </par>
             </col_md_8>
+            <col_md_4
+                jcr:created="{Date}2014-11-10T09:52:42.410+11:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-11-10T09:52:42.410+11:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="bootstrap/components/layout/grid/col-md-4"
+                replacementBootstrapCssClasses="col-xs-4">
+                <par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <accordion
+                        jcr:created="{Date}2014-11-10T09:52:50.701+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2014-11-10T09:52:50.701+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="bootstrap/components/accordion">
+                        <par
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys">
+                            <item
+                                jcr:created="{Date}2014-11-10T09:52:56.517+11:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-11-10T09:52:56.517+11:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="bootstrap/components/accordion/item"
+                                expanded="{Boolean}false"
+                                heading="Default Heading">
+                                <par
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="foundation/components/parsys">
+                                    <text
+                                        jcr:created="{Date}2014-11-10T09:53:45.564+11:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2014-11-10T09:53:45.564+11:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="foundation/components/text"
+                                        text="&lt;p>Accordion #2 Item #1&lt;/p>&#xa;"
+                                        textIsRich="true"/>
+                                </par>
+                            </item>
+                            <item_0
+                                jcr:created="{Date}2014-11-10T09:59:12.429+11:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-11-10T09:59:12.429+11:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="bootstrap/components/accordion/item"
+                                expanded="{Boolean}false"
+                                heading="Default Heading">
+                                <par
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="foundation/components/parsys">
+                                    <text
+                                        jcr:created="{Date}2014-11-10T09:53:45.564+11:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2014-11-10T09:53:45.564+11:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="foundation/components/text"
+                                        text="&lt;p>Accordion #2 Item #1&lt;/p>&#xa;"
+                                        textIsRich="true"/>
+                                </par>
+                            </item_0>
+                        </par>
+                    </accordion>
+                </par>
+            </col_md_4>
         </main-container>
     </jcr:content>
 </jcr:root>

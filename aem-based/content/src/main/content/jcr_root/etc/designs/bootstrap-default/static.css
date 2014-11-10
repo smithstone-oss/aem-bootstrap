@@ -1,5 +1,18 @@
 @import url("http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.css");
 
+.cq-wcm-edit .dropdown {
+
+    /*z-index: 100000;*/
+
+
+}
+
+
+.cq-wcm-edit .dropdown .new {
+
+    /*z-index:100001;*/
+
+}
 .cq-wcm-edit .col-md-1 {
 
     border:1px solid red;

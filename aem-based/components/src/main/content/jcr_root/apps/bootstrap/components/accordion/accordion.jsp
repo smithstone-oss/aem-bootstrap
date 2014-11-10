@@ -22,7 +22,6 @@
 <script type="text/javascript">
 
 
-    // ${accordion.id}
     $(document).ready(function () {
 
         if(typeof(CQ) != "undefined"){

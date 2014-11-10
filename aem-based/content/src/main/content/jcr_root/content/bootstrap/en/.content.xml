@@ -489,4 +489,6 @@
         </main-container>
     </jcr:content>
     <accordion-example/>
+    <template-example/>
+    <moo/>
 </jcr:root>

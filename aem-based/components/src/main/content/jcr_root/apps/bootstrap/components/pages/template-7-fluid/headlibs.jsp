@@ -17,6 +17,8 @@
 
 --%><%@ page session="false" %><%
 %><%@include file="/libs/foundation/global.jsp" %><%
-%><cq:includeClientLib categories="cq.foundation-main"/><%
-%><cq:include script="/libs/cq/cloudserviceconfigs/components/servicelibs/servicelibs.jsp"/><%
+%><%
     currentDesign.writeCssIncludes(pageContext); %>
+<cq:includeClientLib categories="cq.foundation-main"/><%
+%><cq:include script="/libs/cq/cloudserviceconfigs/components/servicelibs/servicelibs.jsp"/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js" type="text/javascript"></script>
