@@ -14,7 +14,8 @@
 
         $(parent).attr("id" , container);
 
-        $(" .tab-pane").each(function (i, e) {
+
+        $(parent).find(" .tab-pane").each(function (i, e) {
 
             var config = $(e).find(".config").attr("data-aem-config");
 
@@ -26,10 +27,10 @@
 
         });
 
-        $(" .tab-content .tab-pane").each(function (i, e) {
+        $(parent).find(" .tab-content .tab-pane").each(function (i, e) {
 
             var id = $(e).attr("id");
-            var availableTabs = $(e).parent().parent().find("ul.nav-tabs.nav");
+            var availableTabs = $(parent).find("ul.nav-tabs.nav");
             var active = "";
             if (i == 0) {
                 active = "active";

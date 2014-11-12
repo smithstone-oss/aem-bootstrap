@@ -3,9 +3,11 @@
 <div class="config" data-tab-heading="<%=properties.get("heading" , "[TBD]")%>"
      data-aem-panel-parsys="${resource.path}/par"
      data-aem-config="<%=resource.getPath().replaceAll("/" , "_").replaceAll(":", "_")%>">
-    <p>${resource.path}<%=properties.get("heading" , "[TBD]")%></p>
+    <cq:include path="start" resourceType="bootstrap/components/tab/panel/start"/>
 
+    <span>&nbsp;</span>
     <cq:include path="par" resourceType="bootstrap/components/tab/panel/parsys"/>
+    <cq:include path="end" resourceType="bootstrap/components/tab/panel/end"/>
 </div>
 
 <script>
