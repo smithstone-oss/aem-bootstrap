@@ -8,7 +8,6 @@
 <ul class="dropdown-menu" role="menu" data-cq-editable-path="${resource.path}/menu-items">
     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
     <cq:include path="menu-items" resourceType="foundation/components/parsys"/>
-
 </ul>
 
 

@@ -1,3 +1,4 @@
 <%@include file="/apps/foundation/global.jsp"%>
 
-<a href="#home" role="tab" data-toggle="tab">Home</a>
+
+<%--<li role="presentation" class=""><a href="#info" role="tab" data-toggle="tab">info</a>--%>
