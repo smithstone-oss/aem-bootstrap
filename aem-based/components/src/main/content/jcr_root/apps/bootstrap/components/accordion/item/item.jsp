@@ -11,9 +11,9 @@
 
 <bootstrap:accordion-item headingId="${item.headingId}"
                           bodyId="${item.parentContainerId}_${item.bodyId}"
-                          accordionEditablePath="${resource.path}/par"
+                          accordionEditablePath="${resource.path}/item-components"
                           in="<%= properties.get("expanded" , "")%>"
-                          parentContainerId="${item.parentContainerId}">
+                          parentContainerId="${item.parentContainerId} ">
 
     <jsp:attribute name="heading">
 
@@ -23,7 +23,7 @@
 
     <jsp:attribute name="body">
 
-        <cq:include path="par" resourceType="foundation/components/parsys"/>
+        <cq:include path="item-components" resourceType="bootstrap/components/accordion/item/parsys"/>
 
 
 
@@ -34,8 +34,8 @@
         <script>
 
             if(typeof(CQ) != "undefined"){
-                CQ.WCM.onEditableReady('${resource.path}/par',function(e){
-                    var parsys = CQ.WCM.getEditable('${resource.path}/par');
+                CQ.WCM.onEditableReady('${resource.path}/item-components',function(e){
+                    var parsys = CQ.WCM.getEditable('${resource.path}/item-components');
                     var state = "${item.state}";
                     if(state != "in" && parsys){
                         parsys.hide();

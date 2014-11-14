@@ -12,7 +12,7 @@
 <bootstrap:accordion id="${accordion.id}">
 
     <jsp:attribute name="body">
-        <cq:include path="par" resourceType="foundation/components/parsys"/>
+        <cq:include path="accordion-items" resourceType="foundation/components/parsys"/>
     </jsp:attribute>
 </bootstrap:accordion>
 

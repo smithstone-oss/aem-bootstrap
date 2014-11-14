@@ -21,7 +21,7 @@ public class CQAccordionItemSupportTag extends AccordionItemSupportTag {
             @Override
             public String getParentContainerId() {
                 Resource parent = resource.getParent();
-                while(!parent.getResourceType().contains("components/accordion")){
+                while(!parent.getResourceType().endsWith("components/accordion")){
                     parent = parent.getParent();
                 }
                 return parent.getPath().replaceAll("/" , "_").replaceAll(":" , "_");
