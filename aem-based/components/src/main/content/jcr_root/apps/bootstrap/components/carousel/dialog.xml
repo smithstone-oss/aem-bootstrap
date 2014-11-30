@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Config">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <interval
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="The amount of time to delay between automatically cycling an item. If false, carousel will not automatically cycle."
+                        fieldLabel="Interval"
+                        name="./interval"
+                        xtype="numberfield"/>
+                    <intervalHint
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./interval@TypeHint"
+                        value="Long"
+                        xtype="hidden"/>
+                </items>
+            </tab1>
+        </items>
+    </items>
+</jcr:root>

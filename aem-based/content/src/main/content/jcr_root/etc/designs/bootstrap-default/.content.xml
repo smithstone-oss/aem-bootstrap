@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2014-11-13T09:24:24.009+11:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Bootstrap Default Design"
+        sling:resourceType="wcm/core/components/designer">
+        <template-7-fluid jcr:primaryType="nt:unstructured">
+            <main-container
+                jcr:lastModified="{Date}2014-11-07T15:01:48.791+11:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:General,group:Bootstrap]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </main-container>
+        </template-7-fluid>
+        <template-7 jcr:primaryType="nt:unstructured">
+            <main-container
+                jcr:lastModified="{Date}2014-11-10T09:21:59.603+11:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:General,group:Bootstrap]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </main-container>
+        </template-7>
+        <template-1 jcr:primaryType="nt:unstructured">
+            <top jcr:primaryType="nt:unstructured">
+                <parsys
+                    jcr:lastModified="{Date}2014-11-10T10:46:32.545+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[group:General,group:Bootstrap]">
+                    <section jcr:primaryType="nt:unstructured"/>
+                    <col-md-6 jcr:primaryType="nt:unstructured">
+                        <parsys
+                            jcr:lastModified="{Date}2014-11-10T10:59:17.015+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys"
+                            components="[group:General,group:Bootstrap]">
+                            <section jcr:primaryType="nt:unstructured"/>
+                            <col-md-6 jcr:primaryType="nt:unstructured">
+                                <parsys
+                                    jcr:lastModified="{Date}2014-11-10T10:59:25.812+11:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="foundation/components/parsys"
+                                    components="[group:General,group:Bootstrap]">
+                                    <section jcr:primaryType="nt:unstructured"/>
+                                </parsys>
+                            </col-md-6>
+                            <headed-panel jcr:primaryType="nt:unstructured">
+                                <par
+                                    jcr:lastModified="{Date}2014-11-13T07:29:26.389+11:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="foundation/components/parsys"
+                                    components="group:General">
+                                    <tab jcr:primaryType="nt:unstructured">
+                                        <parsys
+                                            jcr:lastModified="{Date}2014-11-13T07:44:29.736+11:00"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="bootstrap/components/tab/parsys"
+                                            components="group:Bootstrap">
+                                            <panel jcr:primaryType="nt:unstructured">
+                                                <parsys
+                                                    jcr:lastModified="{Date}2014-11-13T07:28:26.891+11:00"
+                                                    jcr:lastModifiedBy="admin"
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="bootstrap/components/tab/panel/parsys"
+                                                    components="group:Bootstrap">
+                                                    <section jcr:primaryType="nt:unstructured"/>
+                                                    <accordion jcr:primaryType="nt:unstructured">
+                                                        <par
+                                                            jcr:lastModified="{Date}2014-11-13T07:45:03.836+11:00"
+                                                            jcr:lastModifiedBy="admin"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="foundation/components/parsys"
+                                                            components="[group:General,group:Bootstrap]">
+                                                            <section jcr:primaryType="nt:unstructured"/>
+                                                            <item jcr:primaryType="nt:unstructured">
+                                                                <par
+                                                                    jcr:lastModified="{Date}2014-11-13T07:46:02.161+11:00"
+                                                                    jcr:lastModifiedBy="admin"
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="foundation/components/parsys"
+                                                                    components="group:General">
+                                                                    <section jcr:primaryType="nt:unstructured"/>
+                                                                </par>
+                                                            </item>
+                                                        </par>
+                                                    </accordion>
+                                                </parsys>
+                                            </panel>
+                                            <section jcr:primaryType="nt:unstructured"/>
+                                        </parsys>
+                                    </tab>
+                                    <section jcr:primaryType="nt:unstructured"/>
+                                </par>
+                            </headed-panel>
+                        </parsys>
+                    </col-md-6>
+                </parsys>
+            </top>
+            <left jcr:primaryType="nt:unstructured">
+                <parsys
+                    jcr:lastModified="{Date}2014-11-10T10:46:51.536+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[group:General,group:Bootstrap]">
+                    <section jcr:primaryType="nt:unstructured"/>
+                </parsys>
+            </left>
+            <right jcr:primaryType="nt:unstructured">
+                <parsys
+                    jcr:lastModified="{Date}2014-11-10T10:46:58.430+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[group:General,group:Bootstrap]">
+                    <section jcr:primaryType="nt:unstructured"/>
+                </parsys>
+            </right>
+            <bottom jcr:primaryType="nt:unstructured">
+                <parsys
+                    jcr:lastModified="{Date}2014-11-10T10:47:05.085+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[group:General,group:Bootstrap]">
+                    <section jcr:primaryType="nt:unstructured"/>
+                </parsys>
+            </bottom>
+        </template-1>
+        <template-2-fluid jcr:primaryType="nt:unstructured">
+            <right jcr:primaryType="nt:unstructured">
+                <parsys
+                    jcr:lastModified="{Date}2014-11-10T15:02:12.156+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[/libs/foundation/components/image,/libs/foundation/components/text,/libs/foundation/components/textimage,group:Bootstrap]">
+                    <section jcr:primaryType="nt:unstructured"/>
+                </parsys>
+            </right>
+        </template-2-fluid>
+        <template-3 jcr:primaryType="nt:unstructured">
+            <left jcr:primaryType="nt:unstructured">
+                <parsys
+                    jcr:lastModified="{Date}2014-11-10T15:39:45.447+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[/libs/foundation/components/image,/libs/foundation/components/table,/libs/foundation/components/text,group:Bootstrap]">
+                    <section jcr:primaryType="nt:unstructured"/>
+                    <accordion jcr:primaryType="nt:unstructured">
+                        <par
+                            jcr:lastModified="{Date}2014-11-10T15:34:41.161+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys"
+                            components="[/libs/foundation/components/image,/libs/foundation/components/table,/libs/foundation/components/text,group:Bootstrap]">
+                            <section jcr:primaryType="nt:unstructured"/>
+                        </par>
+                        <accordion-items
+                            jcr:lastModified="{Date}2014-11-13T09:24:24.007+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="bootstrap/components/accordion/parsys"
+                            components="[/libs/foundation/components/image,/libs/foundation/components/table,/libs/foundation/components/text,/libs/foundation/components/textimage,group:Bootstrap]">
+                            <section jcr:primaryType="nt:unstructured"/>
+                        </accordion-items>
+                    </accordion>
+                </parsys>
+            </left>
+            <center jcr:primaryType="nt:unstructured">
+                <parsys
+                    jcr:lastModified="{Date}2014-11-10T15:33:22.670+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[/libs/foundation/components/image,/libs/foundation/components/table,/libs/foundation/components/text,group:Bootstrap]">
+                    <section jcr:primaryType="nt:unstructured"/>
+                    <accordion jcr:primaryType="nt:unstructured">
+                        <par
+                            jcr:lastModified="{Date}2014-11-10T15:41:57.416+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys"
+                            components="[/libs/foundation/components/image,/libs/foundation/components/table,/libs/foundation/components/text,group:Bootstrap]">
+                            <section jcr:primaryType="nt:unstructured"/>
+                        </par>
+                    </accordion>
+                </parsys>
+            </center>
+            <right jcr:primaryType="nt:unstructured">
+                <parsys
+                    jcr:lastModified="{Date}2014-11-10T15:33:47.308+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[/libs/foundation/components/image,/libs/foundation/components/table,/libs/foundation/components/text,group:Bootstrap]">
+                    <section jcr:primaryType="nt:unstructured"/>
+                    <accordion jcr:primaryType="nt:unstructured">
+                        <par
+                            jcr:lastModified="{Date}2014-11-10T15:35:12.735+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys"
+                            components="[/libs/foundation/components/image,/libs/foundation/components/table,/libs/foundation/components/text,group:Bootstrap]">
+                            <section jcr:primaryType="nt:unstructured"/>
+                        </par>
+                    </accordion>
+                </parsys>
+            </right>
+            <top jcr:primaryType="nt:unstructured">
+                <parsys
+                    jcr:lastModified="{Date}2014-11-10T15:39:30.896+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[/libs/foundation/components/image,/libs/foundation/components/table,/libs/foundation/components/text,group:Bootstrap]">
+                    <section jcr:primaryType="nt:unstructured"/>
+                </parsys>
+            </top>
+        </template-3>
+    </jcr:content>
+    <_x0030_.gif/>
+    <favicon.ico/>
+    <static.css/>
+</jcr:root>

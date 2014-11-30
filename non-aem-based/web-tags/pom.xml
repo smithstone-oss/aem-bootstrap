@@ -3,9 +3,26 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>uk.co.smithstone-solutions</groupId>
+            <artifactId>domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>uk.co.smithstone-solutions</groupId>
+            <artifactId>web</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
     <parent>
-        <groupId>au.com.digitaslbi</groupId>
+        <groupId>uk.co.smithstone-solutions</groupId>
         <artifactId>non-aem-based</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -14,4 +31,26 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Bundle-Name>Bootstrap Web Tags Bundle</Bundle-Name>
+                        <Export-Package>
+                            bootstrap.web.taglib.*,
+                        </Export-Package>
+                        <Import-Package>
+                            *
+                        </Import-Package>
+                    </instructions>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
 </project>

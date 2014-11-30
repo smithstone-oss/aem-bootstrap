@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="ParSys (Design)"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <title
+            jcr:primaryType="cq:Widget"
+            fieldDescription="(eg: 8px 0 0 0)"
+            fieldLabel="Cell Padding"
+            name="./section/div.padding"
+            xtype="textfield"/>
+        <drawAnchors
+            jcr:primaryType="cq:Widget"
+            boxLabel="Draw anchors"
+            fieldDescription="Check to draw an anchor for each component."
+            fieldLabel="Anchors"
+            name="./drawAnchors"
+            type="checkbox"
+            xtype="selection"/>
+        <components
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Allowed Components"
+            name="./components"
+            xtype="componentselector"/>
+    </items>
+</jcr:root>

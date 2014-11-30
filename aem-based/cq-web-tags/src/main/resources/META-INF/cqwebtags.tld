@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+
+    <description>CQ Bootstrap tag libraries</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>bootstrap-cq-tags</short-name>
+    <uri>http://www.smithstone-solutions.co.uk/bootstrap/cq/tags</uri>
+
+    <tag>
+        <name>accordionItemSupportTag</name>
+        <tag-class>bootstrap.web.cq.taglib.CQAccordionItemSupportTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>navBarSupportTag</name>
+        <tag-class>bootstrap.web.cq.taglib.CQNavBarSupportTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>accordionSupportTag</name>
+        <tag-class>bootstrap.web.cq.taglib.CQAccordionSupportTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+
+</taglib>

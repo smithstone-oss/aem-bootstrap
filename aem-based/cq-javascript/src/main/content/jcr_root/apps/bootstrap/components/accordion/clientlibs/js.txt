@@ -1,0 +1,2 @@
+#base=javascript
+cq/accordion-cq.js

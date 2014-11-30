@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com" xsi:schemaLocation="http://www.zeroturnaround.com http://www.zeroturnaround.com/alderaan/rebel-2_0.xsd">
+
+	<classpath>
+		<dir name="/Users/ssmithstone/Development/smithstone-solutions/aem-bootstrap/non-aem-based/non-aem-view-tests/target/classes">
+		</dir>
+	</classpath>
+
+	<web>
+		<link target="/">
+			<dir name="/Users/ssmithstone/Development/smithstone-solutions/aem-bootstrap/non-aem-based/non-aem-components/src/main/content/jcr_root">
+			</dir>
+		</link>
+		<link target="/WEB-INF/tags/apps/bootstrap/components/tags">
+			<dir name="/Users/ssmithstone/Development/smithstone-solutions/aem-bootstrap/non-aem-based/non-aem-components/src/main/java/WEB-INF/tags/apps/bootstrap/components/tags">
+			</dir>
+		</link>
+		<link target="/">
+			<dir name="/Users/ssmithstone/Development/smithstone-solutions/aem-bootstrap/non-aem-based/non-aem-javascript/src/main/content/jcr_root">
+			</dir>
+		</link>
+		<link target="/">
+			<dir name="/Users/ssmithstone/Development/smithstone-solutions/aem-bootstrap/non-aem-based/non-aem-style/src/main/content/jcr_root">
+			</dir>
+		</link>
+		<link target="/">
+			<dir name="/Users/ssmithstone/Development/smithstone-solutions/aem-bootstrap/non-aem-based/web-tags/src/main/resources">
+			</dir>
+		</link>
+		<link target="/">
+			<dir name="/Users/ssmithstone/Development/smithstone-solutions/aem-bootstrap/non-aem-based/non-aem-view-tests/src/main/webapp">
+			</dir>
+		</link>
+	</web>
+
+</application>

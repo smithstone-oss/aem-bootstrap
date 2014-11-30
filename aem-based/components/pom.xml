@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>au.com.digitaslbi</groupId>
+        <groupId>uk.co.smithstone-solutions</groupId>
         <artifactId>aem-based</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -13,6 +13,39 @@
     <artifactId>components</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>content-package</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.day.commons</groupId>
+            <artifactId>day-commons-jstl</artifactId>
+            <version>1.1.4</version>
+            <scope>provided</scope>
+            <!-- javax.servlet.jsp.jstl.core -->
+        </dependency>
+        <dependency>
+            <groupId>com.day.cq.wcm</groupId>
+            <artifactId>cq-wcm-taglib</artifactId>
+            <version>5.6.4</version>
+            <scope>provided</scope>
+
+            <!-- com.day.cq.wcm.tags -->
+        </dependency>
+        <dependency>
+            <groupId>org.apache.sling</groupId>
+            <artifactId>org.apache.sling.scripting.jsp.taglib</artifactId>
+            <version>2.2.4</version>
+            <scope>provided</scope>
+
+            <!-- org.apache.sling.scripting.jsp.taglib -->
+        </dependency>
+
+        <dependency>
+            <groupId>uk.co.smithstone-solutions</groupId>
+            <artifactId>cq-web-tags</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <resources>
