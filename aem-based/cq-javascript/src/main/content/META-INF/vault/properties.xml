@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Custom Vault Properties</comment>
+<entry key="createdBy">The A Team</entry>
+<entry key="name">smithstone-global-cq-content</entry>
+<entry key="lastModified">${build.timestamp}</entry>
+<entry key="lastModifiedBy">${user.name}</entry>
+<entry key="created">2010-08-17T14:38:31.561+01:00</entry>
+<entry key="buildCount">${buildNumber}</entry>
+<!--<entry key="buildUrl">http://bamboo.lbi.co.uk/browse/${buildKey}-${buildNumber}</entry>-->
+<!--<entry key="repoRevisionUrl">http://fisheye.lbi.co.uk/changelog/VAA?cs=${revision}</entry>-->
+<entry key="version">2.0.0-SNAPSHOT</entry>
+<entry key="dependencies"/>
+<entry key="packageFormatVersion">2</entry>
+<!--<entry key="lastWrapped">${build.timestamp}</entry>-->
+<entry key="group">my_packages</entry>
+<entry key="description">web-js package - ${project.version}</entry>
+<entry key="lastWrappedBy">${user.name}</entry>
+<entry key="path">/etc/packages/web-js</entry>
+</properties>

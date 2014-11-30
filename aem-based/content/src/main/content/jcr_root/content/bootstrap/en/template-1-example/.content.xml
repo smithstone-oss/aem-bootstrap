@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2014-11-13T07:34:38.818+11:00"
+        cq:lastModified="{Date}2014-11-13T07:48:45.781+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/bootstrap/templates/template-1"
         jcr:primaryType="cq:PageContent"
@@ -171,7 +171,56 @@
                                                     jcr:lastModified="{Date}2014-11-13T07:33:11.025+11:00"
                                                     jcr:lastModifiedBy="admin"
                                                     jcr:primaryType="nt:unstructured"
-                                                    sling:resourceType="bootstrap/components/accordion"/>
+                                                    sling:resourceType="bootstrap/components/accordion">
+                                                    <par
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="foundation/components/parsys">
+                                                        <item
+                                                            jcr:created="{Date}2014-11-13T07:45:40.693+11:00"
+                                                            jcr:createdBy="admin"
+                                                            jcr:lastModified="{Date}2014-11-13T07:47:32.236+11:00"
+                                                            jcr:lastModifiedBy="admin"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="bootstrap/components/accordion/item"
+                                                            expanded="{Boolean}false"
+                                                            heading="Baseball">
+                                                            <par
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="foundation/components/parsys">
+                                                                <image
+                                                                    jcr:created="{Date}2014-11-13T07:46:19.779+11:00"
+                                                                    jcr:createdBy="admin"
+                                                                    jcr:lastModified="{Date}2014-11-13T07:46:19.779+11:00"
+                                                                    jcr:lastModifiedBy="admin"
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="foundation/components/image"
+                                                                    fileReference="/content/dam/sports/10.jpeg"/>
+                                                            </par>
+                                                        </item>
+                                                        <item_0
+                                                            jcr:created="{Date}2014-11-13T07:47:41.961+11:00"
+                                                            jcr:createdBy="admin"
+                                                            jcr:lastModified="{Date}2014-11-13T07:47:47.272+11:00"
+                                                            jcr:lastModifiedBy="admin"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="bootstrap/components/accordion/item"
+                                                            expanded="{Boolean}false"
+                                                            heading="Cricket">
+                                                            <par
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="foundation/components/parsys">
+                                                                <image
+                                                                    jcr:created="{Date}2014-11-13T07:48:45.780+11:00"
+                                                                    jcr:createdBy="admin"
+                                                                    jcr:lastModified="{Date}2014-11-13T07:48:45.780+11:00"
+                                                                    jcr:lastModifiedBy="admin"
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="foundation/components/image"
+                                                                    fileReference="/content/dam/sports/1-2.jpeg"/>
+                                                            </par>
+                                                        </item_0>
+                                                    </par>
+                                                </accordion>
                                             </par>
                                         </panel_0>
                                     </tab-content>

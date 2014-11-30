@@ -2,6 +2,7 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/bootstrap/components">
         <exclude pattern="/apps/bootstrap/components/tags"/>
+        <exclude pattern="/apps/bootstrap/components/.*/clientlibs"/>
     </filter>
     <filter root="/apps/bootstrap/templates"/>
     <filter root="/apps/foundation"/>

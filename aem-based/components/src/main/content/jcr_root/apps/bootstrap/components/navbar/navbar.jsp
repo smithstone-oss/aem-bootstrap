@@ -24,6 +24,7 @@
                     <li><a href="#">${item.title}</a></li>
                 </c:forEach>
             </ul>
+
         </div>
 
     </div>

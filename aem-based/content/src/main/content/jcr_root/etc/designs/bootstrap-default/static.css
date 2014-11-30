@@ -2,11 +2,18 @@
 
 .cq-wcm-edit .dropdown {
 
-    /*z-index: 100000;*/
+}
 
+.nav-items.parsys {
 
 }
 
+.nav-items .new {
+
+    border: 1px solid blue;
+
+
+}
 
 .cq-wcm-edit .dropdown .new {
 
