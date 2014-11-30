@@ -45,24 +45,23 @@ Each dialog for the columns allow you to define the extra bootstrap grid system 
 So the idea behind the components to make as much as possible editable from the view and not as much in properties, an example of this are carousels, it seems to be the standard to define the images and allowed content inside of a properties and then load them in that way, so i've tried to implement more drag and drop components and then edit the components and add little dialog properties.
 
 ### Carousel
-video::111383503[vimeo]
-https://vimeo.com/111383503[Carousel Example @ *vimeo*]
+
+https://vimeo.com/111383503[Carousel Example]
 
 
 ### Accordion
 Some issues around the designer aspect of this but it works with multiple accordions on a single page, and allows for anything dropped inside of the parsys.
-video::111384750[vimeo]
-https://vimeo.com/111384750[Accordion Example @ *vimeo*]
+
+https://vimeo.com/111384750[Accordion Example ]
 
 ### Accordion Responsive
 So here we are going see how we can control the responsive behaviour of the columns by adding on bootstrap col-sm-* col-xs-* but there are a lot more documented by default the columns are all col-md-*.
-video::111386133[vimeo]
-https://vimeo.com/111386133[Responsive Accordion Example @ *vimeo*]
 
+https://vimeo.com/111386133[Responsive Accordion Example ]
 
 ## Tab Container
 So i've only seen tab containers made up using properties, so this one uses drag and drop components.
-video::111805815[vimeo]
-https://vimeo.com/111805815[Tab Container Example @ *vimeo*]
+
+https://vimeo.com/111805815[Tab Container Example]
 
 
