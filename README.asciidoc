@@ -5,6 +5,10 @@
 
 So we all know the out of the box components and responsive grid system that getbootstrap.com offers for a standard web dev, so I decided to see how hard this would be create a set of templates, layout components and components that can be used AEM while offering an editor a nice editing environment, and it seems that after a few days it wasn't that hard , so I've attached a package to allow you to see what I've been done and what types of layouts you can create with a few select components, with more being developed on a daily basis.
 
+### Code
+
+link:aem-bootstrap-0.0.1.zip[]
+
 ### Designs
 
 Ive added 3 designs bootstrap-default , bootstrap-paper and bootstrap-superhero, so you can swap them in design on advanced page properties.
