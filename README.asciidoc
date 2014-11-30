@@ -1,0 +1,68 @@
+# Bootstrap v3 for AEM 5.6.1 / 6.0.x
+
+
+## Intro
+
+So we all know the out of the box components and responsive grid system that getbootstrap.com offers for a standard web dev, so I decided to see how hard this would be create a set of templates, layout components and components that can be used AEM while offering an editor a nice editing environment, and it seems that after a few days it wasn't that hard , so I've attached a package to allow you to see what I've been done and what types of layouts you can create with a few select components, with more being developed on a daily basis.
+
+### Designs
+
+Ive added 3 designs bootstrap-default , bootstrap-paper and bootstrap-superhero, so you can swap them in design on advanced page properties.
+
+## Templates
+
+I have a total of 7 templates each one being available as fixed and fluid containers.
+The red outline is just in edit mode.
+
+### Template 1
+
+image::images/template-1-example.png[]
+
+### Template 2
+image::images/template-2-example.png[]
+
+### Template 3
+image::images/template-3-example.png[]
+
+### Template 4
+image::images/template-4-example.png[]
+
+### Template 5
+image::images/template-5-example.png[]
+
+### Template 6
+image::images/template-6-example.png[]
+
+### Template 7
+image::images/template-7-example.png[]
+this is just a simple parses which can accept any components so you can made and create crazy layouts using columns , and rows.
+
+## Responsive
+Each dialog for the columns allow you to define the extra bootstrap grid system classes like , col-sm-* , col-lg-* to allow for the response nature of the pages.
+
+## Components
+
+So the idea behind the components to make as much as possible editable from the view and not as much in properties, an example of this are carousels, it seems to be the standard to define the images and allowed content inside of a properties and then load them in that way, so i've tried to implement more drag and drop components and then edit the components and add little dialog properties.
+
+### Carousel
+video::111383503[vimeo]
+https://vimeo.com/111383503[Carousel Example @ *vimeo*]
+
+
+### Accordion
+Some issues around the designer aspect of this but it works with multiple accordions on a single page, and allows for anything dropped inside of the parsys.
+video::111384750[vimeo]
+https://vimeo.com/111384750[Accordion Example @ *vimeo*]
+
+### Accordion Responsive
+So here we are going see how we can control the responsive behaviour of the columns by adding on bootstrap col-sm-* col-xs-* but there are a lot more documented by default the columns are all col-md-*.
+video::111386133[vimeo]
+https://vimeo.com/111386133[Responsive Accordion Example @ *vimeo*]
+
+
+## Tab Container
+So i've only seen tab containers made up using properties, so this one uses drag and drop components.
+video::111805815[vimeo]
+https://vimeo.com/111805815[Tab Container Example @ *vimeo*]
+
+

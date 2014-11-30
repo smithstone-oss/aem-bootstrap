@@ -77,7 +77,6 @@
         <module>cq-javascript</module>
         <module>configuration</module>
         <module>content</module>
-        <module>cq-javascript</module>
     </modules>
 
 
